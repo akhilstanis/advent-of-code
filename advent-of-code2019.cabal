@@ -1,0 +1,19 @@
+cabal-version:      2.4
+name:               advent-of-code2019
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+maintainer:         akhil.stanislavose@gmail.com
+author:             Akhil Stanislavose
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:
+        DayOne
+        DayTwo
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    build-depends:
+        base ^>=4.13.0.0,
+        split ^>=0.2.3.4,
+

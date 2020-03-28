@@ -1,0 +1,3 @@
+cradle:
+  cabal:
+    component: "lib:advent-of-code2019"
